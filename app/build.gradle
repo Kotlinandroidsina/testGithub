@@ -6,6 +6,9 @@ plugins {
 android {
     namespace 'ir.kurdapp.testgithub'
     compileSdk 33
+    buildFeatures {
+        viewBinding = true
+    }
 
     defaultConfig {
         applicationId "ir.kurdapp.testgithub"
